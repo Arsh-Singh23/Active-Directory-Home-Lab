@@ -29,6 +29,8 @@ Created 3 OUs to reflect a real enterprise department structure:
 - `HR`
 - `Finance`
 
+![OU Structure](screenshots/01-ou-structure.png)
+
 ### 3. Users
 Created 6 users across the 3 departments:
 
@@ -50,6 +52,8 @@ Created 3 Global Security Groups following enterprise best practices:
 | GRP_HR | HR | c.white, d.brown |
 | GRP_Finance | Finance | e.davis, f.lee |
 
+![GRP_IT Members](screenshots/02-grp-it-members.png)
+
 ### 5. Group Policy Objects (GPOs)
 Created and linked 3 GPOs simulating real enterprise security policies:
 
@@ -58,6 +62,12 @@ Created and linked 3 GPOs simulating real enterprise security policies:
 | GPO_PasswordPolicy | arshjot.local (domain-wide) | Minimum 10 character passwords, complexity enabled, 90 day expiry |
 | GPO_ScreenLock | IT OU | Screen saver enabled, 10 minute timeout, password protected |
 | GPO_RestrictControlPanel | HR OU | Control Panel and PC Settings access prohibited |
+
+![GPO Overview](screenshots/03-gpo-overview.png)
+
+![Password Policy Settings](screenshots/04-gpo-password-policy.png)
+
+![Restrict Control Panel](screenshots/05-gpo-restrict-controlpanel.png)
 
 ---
 
